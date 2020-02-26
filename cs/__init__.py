@@ -94,6 +94,7 @@ _cs_types_encode = {
     "MemberInfo": "Hazelcast.Core.MemberInfo",
     "MemberVersion": "Hazelcast.Core.MemberVersion",
     "MCEvent": "NA",
+    "DataStructure": "NA",
     "AnchorDataListHolder": "NA",
     "PagingPredicateHolder": "NA",
 
@@ -117,6 +118,7 @@ _cs_types_encode = {
     "List_StackTraceElement": "ICollection<Hazelcast.Util.StackTraceElement>",
     "List_ClientBwListEntry": "NA",
     "List_MCEvent": "NA",
+    "List_DataStructure": "NA",
 
     "EntryList_String_String": "ICollection<KeyValuePair<string, string>>",
     "EntryList_String_byteArray": "ICollection<KeyValuePair<string, byte[]>>",
@@ -139,6 +141,7 @@ _cs_types_decode = {
     "MemberInfo": "Hazelcast.Core.MemberInfo",
     "MemberVersion": "Hazelcast.Core.MemberVersion",
     "MCEvent": "NA",
+    "DataStructure": "NA",
     "AnchorDataListHolder": "NA",
     "PagingPredicateHolder": "NA",
 
@@ -161,6 +164,7 @@ _cs_types_decode = {
     "List_StackTraceElement": "IList<Hazelcast.Util.StackTraceElement>",
     "List_ClientBwListEntry": "NA",
     "List_MCEvent": "NA",
+    'List_DataStructure': 'NA',
     "List_ScheduledTaskHandler": "NA",
 
     "EntryList_String_String": "IList<KeyValuePair<string, string>>",

@@ -48,6 +48,7 @@ CustomTypes = [
     'MemberInfo',
     'MemberVersion',
     'MCEvent',
+    'DataStructure',
     'AnchorDataListHolder',
     'PagingPredicateHolder',
 ]
@@ -105,6 +106,7 @@ VarLengthListTypes = [
     'List_StackTraceElement',
     'List_ClientBwListEntry',
     'List_MCEvent',
+    'List_DataStructure',
 ]
 
 AllTypes = FixedLengthTypes + VarLengthTypes + FixedEntryListTypes + FixedMapTypes + FixedListTypes \

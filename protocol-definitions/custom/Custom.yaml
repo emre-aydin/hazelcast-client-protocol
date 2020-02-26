@@ -852,5 +852,16 @@ customTypes:
           type: Data
           nullable: true
           since: 2.0
+  - name: DataStructure
+    since: 2.0
+    params:
+      - name: name
+        type: String
+        nullable: false
+        since: 2.0
+      - name: type
+        type: int
+        nullable: false
+        since: 2.0
 
 

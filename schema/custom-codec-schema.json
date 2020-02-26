@@ -89,6 +89,7 @@
             "List_StackTraceElement",
             "List_ClientBwListEntry",
             "List_MCEvent",
+            "List_DataStructure",
             "Map_String_String",
             "MergePolicyConfig",
             "MemberVersion",

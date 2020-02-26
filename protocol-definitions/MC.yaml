@@ -845,3 +845,19 @@ methods:
       retryable: false
       partitionIdentifier: -1
     response: {}
+  - id: 33
+    name: getDataStructures
+    since: 2.0
+    doc: |
+      Get data structure names and types
+    request:
+      retryable: false
+      partitionIdentifier: -1
+    response:
+      params:
+        - name: dataStructures
+          type: List_DataStructure
+          since: 2.0
+          nullable: false
+          doc: |
+            List of data structure name/type tuples.

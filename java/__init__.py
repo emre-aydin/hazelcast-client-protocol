@@ -69,6 +69,7 @@ _java_types_encode = {
     "MemberInfo": "com.hazelcast.internal.cluster.MemberInfo",
     "MemberVersion": "com.hazelcast.version.MemberVersion",
     "MCEvent": "com.hazelcast.internal.management.dto.MCEventDTO",
+    "DataStructure": "com.hazelcast.internal.management.dto.DataStructure",
     "AnchorDataListHolder": "com.hazelcast.client.impl.protocol.codec.holder.AnchorDataListHolder",
     "PagingPredicateHolder": "com.hazelcast.client.impl.protocol.codec.holder.PagingPredicateHolder",
 
@@ -92,6 +93,7 @@ _java_types_encode = {
     "List_StackTraceElement": "java.util.Collection<java.lang.StackTraceElement>",
     "List_ClientBwListEntry": "java.util.Collection<com.hazelcast.internal.management.dto.ClientBwListEntryDTO>",
     "List_MCEvent": "java.util.Collection<com.hazelcast.internal.management.dto.MCEventDTO>",
+    "List_DataStructure": "java.util.Collection<com.hazelcast.internal.management.dto.DataStructure>",
 
     "EntryList_String_String": "java.util.Collection<java.util.Map.Entry<java.lang.String, java.lang.String>>",
     "EntryList_String_byteArray": "java.util.Collection<java.util.Map.Entry<java.lang.String, byte[]>>",
@@ -115,6 +117,7 @@ _java_types_decode = {
     "MemberInfo": "com.hazelcast.internal.cluster.MemberInfo",
     "MemberVersion": "com.hazelcast.version.MemberVersion",
     "MCEvent": "com.hazelcast.internal.management.dto.MCEventDTO",
+    "DataStructure": "com.hazelcast.internal.management.dto.DataStructure",
     "AnchorDataListHolder": "com.hazelcast.client.impl.protocol.codec.holder.AnchorDataListHolder",
     "PagingPredicateHolder": "com.hazelcast.client.impl.protocol.codec.holder.PagingPredicateHolder",
 
@@ -137,6 +140,7 @@ _java_types_decode = {
     "List_StackTraceElement": "java.util.List<java.lang.StackTraceElement>",
     "List_ClientBwListEntry": "java.util.List<com.hazelcast.internal.management.dto.ClientBwListEntryDTO>",
     "List_MCEvent": "java.util.List<com.hazelcast.internal.management.dto.MCEventDTO>",
+    "List_DataStructure": "java.util.List<com.hazelcast.internal.management.dto.DataStructure>",
     "List_ScheduledTaskHandler": "java.util.Collection<com.hazelcast.scheduledexecutor.ScheduledTaskHandler>",
 
     "EntryList_String_String": "java.util.List<java.util.Map.Entry<java.lang.String, java.lang.String>>",
